@@ -1,0 +1,63 @@
+{
+  "name": "app-gado-user",
+  "version": "1.0.0",
+  "description": "API de usuario e autenticação",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.opah.com.br/app-do-gado/backend-user.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "homepage": "https://git.opah.com.br/app-do-gado/backend-user",
+  "devDependencies": {
+    "@types/jest": "^23.3.0",
+    "@types/node": "^10.5.2",
+    "@types/restify": "^7.2.3",
+    "@types/supertest": "^2.0.5",
+    "jest": "^23.4.1",
+    "supertest": "^3.1.0",
+    "ts-jest": "^23.0.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@brazilian-utils/is-valid-cnpj": "^0.1.11",
+    "@types/nodemailer": "^6.2.1",
+    "@types/request": "^2.48.4",
+    "@types/restify-cors-middleware": "^1.0.1",
+    "arraystream": "0.0.5",
+    "aws-sdk": "^2.372.0",
+    "axios": "^0.18.1",
+    "bcryptjs": "^2.4.3",
+    "csv-parser": "^2.3.1",
+    "dateformat": "^3.0.3",
+    "jsonwebtoken": "^8.3.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.3.0",
+    "pm2": "^3.0.0",
+    "request": "^2.88.0",
+    "restify": "^7.7.0",
+    "restify-cors-middleware": "^1.1.1",
+    "sequelize": "^5.21.5"
+  }
+}
