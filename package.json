@@ -46,7 +46,7 @@
     "@types/request": "^2.48.4",
     "@types/restify-cors-middleware": "^1.0.1",
     "arraystream": "0.0.5",
-    "aws-sdk": "^2.372.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.18.1",
     "bcryptjs": "^2.4.3",
     "csv-parser": "^2.3.1",
