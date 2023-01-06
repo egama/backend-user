@@ -35,7 +35,7 @@
     "@types/node": "^10.5.2",
     "@types/restify": "^7.2.3",
     "@types/supertest": "^2.0.5",
-    "jest": "^23.4.1",
+    "jest": "^29.3.1",
     "supertest": "^3.1.0",
     "ts-jest": "^23.0.1",
     "typescript": "^2.9.2"
